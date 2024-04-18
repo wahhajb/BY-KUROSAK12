@@ -60,7 +60,7 @@ for (let i = 0; i < img.length; i++) {
     }
   }
 };
-handler.command = /^(انستا)$/i;
+handler.command = /^(أنستا)$/i;
 export default handler;
 
 const getBuffer = async (url, options) => {
