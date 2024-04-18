@@ -1,7 +1,7 @@
 import { youtubedl, youtubedlv2 } from '@bochilteam/scraper';
 
 let handler = async (m, { conn, text, args, isPrems, isOwner, usedPrefix, command }) => {
-  if (!args || !args[0]) throw `*مــثال :\n${usedPrefix + command} https://youtu.be/YzkTFFwxtXI*`;
+  if (!args || !args[0]) throw `*مــثال :\n${usedPrefix + command} https://youtu.be/*`;
   if (!args[0].match(/youtu/gi)) throw `❎ تـأكـد أنـه رابـط يــوتيـوب !`;
 
 
