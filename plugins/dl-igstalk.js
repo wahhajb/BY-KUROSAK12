@@ -1,7 +1,7 @@
 import fg from 'api-dylux'
 let handler= async (m, { conn, args, text, usedPrefix, command }) => {
 	
-    if (!args[0]) throw `♨ ادخل اسم لشخص في انستغرام\n\n📌مثال: ${usedPrefix + command} mahmoud_emam9` 
+    if (!args[0]) throw `♨ ادخل اسم لشخص في انستغرام\n\n📌مثال: ${usedPrefix + command} yd__l` 
     let res = await fg.igStalk(args[0])
     let te = `
 *┐────【 المعلومات 】 ────┌*
