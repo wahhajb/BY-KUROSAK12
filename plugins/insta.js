@@ -6,7 +6,7 @@ import {instagramdl} from '@bochilteam/scraper';
 import instagramDl from '@sasmeee/igdl';
 import {fileTypeFromBuffer} from 'file-type';
 const handler = async (m, {conn, args, command, usedPrefix}) => {
-  if (!args[0]) throw `اضع رابط انستا لتحميله`;
+  if (!args[0]) throw `ضع رابط انستا لتحميله`;
   m.reply(wait);
   try {
 const img = await instagramDl(args[0]);
