@@ -36,6 +36,6 @@ function handler(m, { text }) {
 }
 handler.help = ['H O D A']
 handler.tags = ['H O D A']
-handler.command =  /^(خط|زغرفه)$/i
+handler.command =  /^(خط|زخرفه)$/i
 
 export default handler
