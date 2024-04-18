@@ -22,7 +22,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   
   ❐ الـمده: ${timestamp}
   
-  ❑ الــمـشهـدات: ${views}
+  ❑ الــمـشاهـدات: ${views}
   
   ❒ مـنذ: ${ago}
   
