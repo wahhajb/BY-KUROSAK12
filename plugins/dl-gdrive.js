@@ -1,7 +1,7 @@
 import fg from 'api-dylux' 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-	if (!args[0]) throw `♨ هات لينك جوجل درايف`
+	if (!args[0]) throw `♨ هات رابط جوجل درايف`
 	m.react(rwait) 
 	try {
 	let res = await fg.GDriveDl(args[0])
