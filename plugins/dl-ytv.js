@@ -3,7 +3,7 @@ import fg from 'api-dylux'
 import { youtubedl, youtubedlv2, youtubedlv3 } from '@bochilteam/scraper'
 let limit = 350
 let handler = async (m, { conn, args, isPrems, isOwner, usedPrefix, command }) => {
-	if (!args || !args[0]) throw `❖ مثال :\n${usedPrefix + command} https://youtu.be/pO5dgZrM9Mk`
+	if (!args || !args[0]) throw `❖ مثال :\n${usedPrefix + command} https://youtu.be/`
     if (!args[0].match(/youtu/gi)) throw `❎ تاكد من ان الرابط من يوتيوب`import ytdl from 'ytdl-core';
 import fs from 'fs';
 import os from 'os';
