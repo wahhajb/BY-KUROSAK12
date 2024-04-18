@@ -1,7 +1,7 @@
 
 import fg from 'api-dylux'
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-if (!args[0]) throw `📌 مثال : \n*${usedPrefix + command}* https://twitter.com/TweetsOfCats/status/1666380787921350657?s=20`
+if (!args[0]) throw `📌 مثال : \n*${usedPrefix + command}* https://twitter.com/TweetsOfCats/status/`
           m.react(rwait)    
           try {
           let { SD, HD, desc, thumb, audio } = await fg.twitter(args[0])
