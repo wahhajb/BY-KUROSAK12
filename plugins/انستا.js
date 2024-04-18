@@ -2,7 +2,7 @@ import fetch from 'node-fetch'
 import instagramGetUrl from 'instagram-url-direct'
 import { instagramdl, instagramdlv2, instagramdlv3, instagramdlv4 } from '@bochilteam/scraper'
 let handler = async (m, { conn, args, command, usedPrefix }) => {
-if (!args[0]) throw `*يجب ارسال رابط فيديو مثال: ${usedPrefix + command}* https://www.instagram.com/reel/Cc0NuYBg8R/?utm_source=ig_web_copy_link` 
+if (!args[0]) throw `*يجب ارسال رابط فيديو مثال: ${usedPrefix + command}* https://www.instagram.com/reel/C4n-ltJImZz/?igsh=MzRlODBiNWFlZA==` 
 try {
 await m.reply(`*[❗] ᴅᴇsᴄᴀʀɢᴀɴᴅᴏ sᴜ ᴠɪᴅᴇᴏ, ᴀɢᴜᴀʀᴅᴇ ᴜɴ ᴍᴏᴍᴇɴᴛᴏ ᴘᴏʀ ғᴀᴠᴏʀ, ᴇsᴛᴇ ᴘʀᴏᴄᴇsᴏ ᴘᴜᴇᴅᴇ ᴅᴜʀᴀʀ ᴇɴᴛʀᴇ 2 ʏ 10 ᴍɪɴᴜᴛᴏs ᴅᴇᴘᴇɴᴅɪᴇɴᴅᴏ ᴅᴇ ʟᴀ ᴅᴜʀᴀᴄɪᴏɴ ᴅᴇʟ ᴠɪᴅᴇᴏ...*`)
 switch (command) {        
