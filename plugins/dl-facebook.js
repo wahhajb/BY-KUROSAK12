@@ -2,7 +2,7 @@ import fg from 'api-dylux';
 
 const handler = async (m, { conn, args, usedPrefix, command }) => {
   if (!args[0]) {
-    throw `*✳️ الـرجـاء ارسال رابـــط*\n\n📌 *مـــثال* :\n*${usedPrefix + command}* https://www.facebook.com/reel/1260840321299092`;
+    throw `*✳️ الـرجـاء ارسال رابـــط*\n\n📌 *مـــثال* :\n*${usedPrefix + command}* https://www.facebook.com/r`;
   }
 
   const urlRegex = /^(?:https?:\/\/)?(?:www\.)?(?:facebook\.com|fb\.watch)\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/i;
