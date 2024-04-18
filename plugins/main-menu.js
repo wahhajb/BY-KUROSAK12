@@ -160,7 +160,7 @@ let handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, isPr
  ❐─━──━〘•⊰❉⊱•〙•━──━─❐
 *│*
 *│⇆ رقـم الـمطـور : ↯* 
-*│ده :https://wa.me/967773289295*
+*│ :https://wa.me/967773289295*
 *│*
 *│*
  ❐─━──━〘•⊰❉⊱•〙•━──━─❐
